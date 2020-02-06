@@ -5,6 +5,7 @@ struct Lieu  {
 	char nom [50] ;
 	char desc [600] ;
 	int diff;
+
 	int id;
 };
 
@@ -14,6 +15,7 @@ typedef struct Lieu lieu;
 
 int main(){
 	
+
 	lieu Lieu1 = {"Manrquins","Capitale du Renevac, siege de l'Empire, de la monnaie, et d'un complexe d'inferiorite d'ampleur continentale.", 2, 1};
 	lieu Lieu2 = {"Zvenagar", "Capitale de la dongue du Zvenagarr, haut lieu de l industrie Manrquinoite et ancienne ville commercante.", 5, 2};
 	lieu Lieu3 = {"Estaloth", "Glacier dans les monts du Diable. -5C l'ete, -35C l'hiver. Non, sans blague, qu'est-ce que vous etes venus faire la ?", 19, 3};
